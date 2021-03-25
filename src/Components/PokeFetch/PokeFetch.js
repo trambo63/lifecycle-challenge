@@ -35,14 +35,6 @@ class PokeFetch extends Component {
       .catch((err) => console.log(err))
   }
 
-  //clear the timer 
-  //componentDidMount componentDidUpdate 
-  //componentDidUnmount to clear something 
-
-  //mount
-  //didupdate
-  //unmount
-
   secondsToTime(secs){
     let divisor_for_minutes = secs % (60 * 60);
 
@@ -85,14 +77,6 @@ class PokeFetch extends Component {
     } 
   }
    
-  componentDidUpdate(){
-    
-  } 
-
-  componentWillUnmount(){
-    
-  }
-
   render() {
     return (
       <div className={'wrapper'}>
